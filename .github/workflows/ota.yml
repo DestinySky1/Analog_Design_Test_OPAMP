@@ -1,0 +1,58 @@
+name: OTA design review
+on:
+  pull_request:
+  push:
+    tags: ['v0.1.0']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-24.04
+    container: debian:trixie
+    timeout-minutes: 25
+    env:
+      DEBIAN_FRONTEND: noninteractive
+      MPLCONFIGDIR: /tmp/ota-mpl
+      OPENBLAS_NUM_THREADS: 1
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install simulator and report dependencies
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends ngspice python3-numpy python3-matplotlib texlive-publishers lmodern texlive-latex-recommended poppler-utils
+          ngspice --version
+      - name: Verify original inputs
+        run: sha256sum -c audit/inputs.sha256
+      - name: Reproduce nominal, PVT and mismatch measurements
+        run: python3 sim/review.py replay
+      - name: Rebuild report
+        run: |
+          python3 report/figures.py
+          cd report
+          pdflatex -halt-on-error -interaction=batchmode ota.tex
+          pdflatex -halt-on-error -interaction=batchmode ota.tex
+          pages=$(pdfinfo ota.pdf | awk '/^Pages/{print $2}')
+          test "$pages" -ge 1 && test "$pages" -le 6
+      - name: Save replay measurements and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ota-review
+          path: |
+            replay/
+            report/ota.pdf
+            report/ota.log
+  release:
+    if: github.ref == 'refs/tags/v0.1.0'
+    needs: replay
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish verified design assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.0 · 180 nm 全差分 OTA 三轮设计" --notes-file audit/release-notes.md report/ota.pdf audit/nominal.zip

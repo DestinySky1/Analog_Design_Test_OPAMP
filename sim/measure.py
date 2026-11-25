@@ -1,7 +1,5 @@
 """Measure fully differential OTA decks with ngspice and the supplied BSIM3 card."""
 import argparse
-import csv
-import hashlib
 import json
 import os
 import re
@@ -177,8 +175,13 @@ Vdd vdd 0 dc {vdd}
     wave_body = common+loads+caps.replace(" fp "," ip ").replace(" fm "," im ")
     wave_body += f"""Vsrcp srcp 0 dc {bp:.16g} ac 1 pulse({bp:.16g} {bp+0.03125:.16g} 25n 10p 10p 50n 100n)
 Vsrcm srcm 0 dc {bm:.16g} pulse({bm:.16g} {bm-0.03125:.16g} 25n 10p 10p 50n 100n)
-Lbp srcp ip 1G
-Lbm srcm im 1G
+* DC feeds: E scales voltage, F reflects coil current, Zin = 1 GH * s.
+Etp htp 0 srcp ip 1m
+Ltp htp 0 1
+Ftp srcp ip Etp -1u
+Etm htm 0 srcm im 1m
+Ltm htm 0 1
+Ftm srcm im Etm -1u
 """
     run_spice(directory,"tran",wave_body,"tran 10p 200n 0 10p\nwrdata step.txt v(op,om)")
     t, y = table(directory,"step")
@@ -199,8 +202,8 @@ Lbm srcm im 1G
         curves.update(vout=y,dc_gain=gs,vic=cm,cm_gain=gc)
         for name in ("cmrr","psrr"):
             body=common.replace(f"dc {vdd}",f"dc {vdd} ac {int(name=='psrr')}")+f"Vcm ip 0 dc {VIC} ac {int(name=='cmrr')}\nVshort im ip 0\nClp op 0 450f\nClm om 0 450f"
-            run_spice(directory,name,body,AC+"\nwrdata rej.txt real(v(op)) imag(v(op))")
-            _,r,im = table(directory,"rej")
+            run_spice(directory,name,body,AC+f"\nwrdata {name}.txt real(v(op)) imag(v(op))")
+            _,r,im = table(directory,name)
             ratio=db(adm/(r+1j*im))
             metrics[name+"_db"]=ratio[0]
             curves[name]=ratio
