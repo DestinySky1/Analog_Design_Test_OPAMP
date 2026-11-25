@@ -34,7 +34,7 @@ Differential output noise & $\leq$600 $\mu$V & 527.4 $\mu$V rms \\
 Total static power & minimize & 353.5 $\mu$W \\ \bottomrule
 \end{tabular}\\[3pt]
 $^a$Worst edge, normalized to the ideal 250-mV step.\\
-$^b$20 threshold-only samples. See Section~\ref{sec:var}.
+$^b$20 threshold-only samples. See Section~\ref{sec:mismatch}.
 \end{table}
 \section{Architecture and sizing}
 A telescopic stack would consume voltage headroom. A folded input stage and class-AB output, as in the reference, would require additional bias branches. Our original design uses an NMOS differential pair, PMOS current-source loads, and a PMOS common-source output stage on each side. Each stage averages its two drain voltages through equal resistors and feeds that voltage to the load gates. Parallel sense capacitors improve the high-frequency common-mode path. There is one rail-tied reference current source. The tail mirror has a drawn 6:1 ratio.
@@ -115,7 +115,7 @@ FS & 1.2 & 85 & 65.86 & 47.93 & 71.31 & 67.24 & 8.57 & 8.55 \\
 \bottomrule\end{tabular}
 \end{center}
 \clearpage
-\section{Mismatch and design conclusion}
+\section{Mismatch sensitivity}\label{sec:mismatch}
 For mismatch, each transistor receives an independent Gaussian threshold perturbation with explicitly assumed standard deviation $3\;\mathrm{mV}\,\mu\mathrm{m}/\sqrt{WL}$. A unity differential DC servo finds the input null while holding the common mode fixed. The trim is then held during AC and transient runs. Twenty independent draws (seeds 101--120) give a sample offset standard deviation of 2.00 mV. A central-difference linearization of all ten device thresholds gives 1.70 mV. The sample gain, crossover and phase-margin ranges are 65.86--66.06 dB, 79.14--85.50 MHz and 69.79--70.39 degrees. The model file supplies neither measured mismatch coefficients nor foundry process sections.
 \begin{center}
 TABLE III. Independent threshold perturbations at 1.1 V and 27$^\circ$C.\\[4pt]

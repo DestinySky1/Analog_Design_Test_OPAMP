@@ -20,7 +20,7 @@ jobs:
       - name: Install simulator and report dependencies
         run: |
           apt-get update -qq
-          apt-get install -y --no-install-recommends ngspice python3-numpy python3-matplotlib texlive-publishers lmodern texlive-latex-recommended poppler-utils
+          apt-get install -y --no-install-recommends ngspice python3-numpy python3-matplotlib texlive-publishers texlive-fonts-recommended lmodern texlive-latex-recommended poppler-utils
           ngspice --version
       - name: Verify original inputs
         run: sha256sum -c audit/inputs.sha256
@@ -30,6 +30,7 @@ jobs:
         run: |
           python3 report/figures.py
           cd report
+          rm -f ota.pdf
           pdflatex -halt-on-error -interaction=batchmode ota.tex
           pdflatex -halt-on-error -interaction=batchmode ota.tex
           pages=$(pdfinfo ota.pdf | awk '/^Pages/{print $2}')
@@ -51,8 +52,13 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: ota-review
+          path: verified-replay
       - name: Publish verified design assets
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.0 · 180 nm 全差分 OTA 三轮设计" --notes-file audit/release-notes.md report/ota.pdf audit/nominal.zip
+          (cd verified-replay && zip -qr ../actions-replay.zip .)
+          gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.0 · 180 nm 全差分 OTA 三轮设计" --notes-file audit/release-notes.md verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
