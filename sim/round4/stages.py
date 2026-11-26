@@ -35,7 +35,7 @@ def verify_stage(path, net, drive, vguess, load, stage):
     (path/"model.lib").write_text(model_text("tt",{}))
     (path/"dut.lib").write_text(prepare_ota(net,None)[0]+"\n")
     body = (f"Vdd vdd 0 1.1\nVp ip 0 dc {drive} ac .5\nVm im 0 dc {drive} ac -.5\n"
-            f"Xp ip im op om vdd 0 block\nCLp op 0 {load}\nCLm om 0 {load}")
+            f"Xp ip im op om vdd 0 stage{stage}\nCLp op 0 {load}\nCLm om 0 {load}")
     if stage==1:  # conservative differential input-load budget
         body+=f"\nVx vx 0 {vguess}\nRlp op vx {INPUT_R_BUDGET}\nRlm om vx {INPUT_R_BUDGET}"
     run_spice(path,"local",body,"op\nwrdata op.txt v(op) v(om) i(vdd)\n"+AC+
@@ -130,10 +130,10 @@ def main(root,lut_path):
     root.mkdir(parents=True,exist_ok=True)
     lut=Lookup(lut_path)
     one,b1=first(lut)
-    s1=subckt("block","ip im xp xm vdd 0",one)
+    s1=subckt("stage1","ip im xp xm vdd 0",one)
     m1=verify_stage(root/"stage1",s1,VIC,VX,.45e-12,1)
     two,b2=second(lut,m1["cm_V"])
-    s2=subckt("block","xp xm op om vdd 0",two)
+    s2=subckt("stage2","xp xm op om vdd 0",two)
     m2=verify_stage(root/"stage2",s2,m1["cm_V"],VO,.45e-12,2)
     # Series-R Miller zero: 1/(2 pi Cc (Rz - 1/Gm2)); verified by the integrated transient.
     fzero=2.6*FC
