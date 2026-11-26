@@ -2,7 +2,7 @@ name: OTA design review
 on:
   pull_request:
   push:
-    tags: ['v0.1.0', 'v0.1.1', 'v0.1.2']
+    tags: ['v0.1.0', 'v0.1.1', 'v0.1.2', 'v0.1.3']
   workflow_dispatch:
 permissions:
   contents: read
@@ -80,7 +80,7 @@ jobs:
           name: ota-review
           path: verified-replay
       - uses: actions/download-artifact@v4
-        if: github.ref_name == 'v0.1.2'
+        if: github.ref_name == 'v0.1.2' || github.ref_name == 'v0.1.3'
         with:
           name: bias-review
           path: verified-bias
@@ -89,9 +89,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           (cd verified-replay && zip -qr ../actions-replay.zip .)
-          if [ "$GITHUB_REF_NAME" = v0.1.2 ]; then
+          if [ -d verified-bias ]; then
             (cd verified-bias && zip -qr ../bias-review.zip .)
-            gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.2 · OTA 七项偏置与共模复核" --generate-notes --notes "补测第三版 OTA 的 40 组逐管工作点、20 个失配样本、大信号与共模环路。四个假设 SS/SF、85 °C 工作点的尾管饱和余量为负，最低 −3.28 mV。bias-review.zip 含测试网表、模型假设、频响、瞬态和日志。原设计可按 v0.1.1 复现。见 [测量定义及边界](https://github.com/DestinySky1/Analog_Design_Test_OPAMP/blob/v0.1.2/audit/bias/README.md)。" bias-review.zip round3/ota.rnl.sp round3/ota.rnl.svg round3/ota.rnl.png verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
+            if [ "$GITHUB_REF_NAME" = v0.1.3 ]; then
+              title="v0.1.3 · OTA 原理图布局修订"
+              notes="Mref 与 Mtail 同高，栅极水平直连。偏置支路左移，供电垂直接入；上方电源标记居中，下方共模检测标签拉开。附件含对应的 RNL、SVG、PNG 及本次复跑数据。上一版图纸保存在 v0.1.2。"
+            else
+              title="v0.1.2 · OTA 七项偏置与共模复核"
+              notes="补测第三版 OTA 的 40 组逐管工作点、20 个失配样本、大信号与共模环路。四个假设 SS/SF、85 °C 工作点的尾管饱和余量为负，最低 −3.28 mV。bias-review.zip 含测试网表、模型假设、频响、瞬态和日志。原设计可按 v0.1.1 复现。见 [测量定义及边界](https://github.com/DestinySky1/Analog_Design_Test_OPAMP/blob/v0.1.2/audit/bias/README.md)。"
+            fi
+            gh release create "$GITHUB_REF_NAME" --verify-tag --title "$title" --generate-notes --notes "$notes" bias-review.zip round3/ota.rnl.sp round3/ota.rnl.svg round3/ota.rnl.png verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
           elif [ "$GITHUB_REF_NAME" = v0.1.1 ]; then
             gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.1 · 最终 OTA 网表与原理图" --generate-notes --notes-file audit/schematic-release.md round3/ota.rnl.sp round3/ota.rnl.svg round3/ota.rnl.png verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
           else
