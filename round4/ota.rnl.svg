@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1970" height="1214" viewBox="-161.08 -994.73 1970.15 1213.66" font-family="Noto Sans SC, Noto Sans CJK SC, Source Han Sans SC, sans-serif" style="font-kerning:none;font-variant-ligatures:none;text-spacing-trim:space-all;text-autospace:no-autospace">
+<rect class="backdrop" x="-161.08" y="-994.73" width="1970.15" height="1213.66" fill="#ffffff"/>
+<g data-id="#Iref"><circle cx="-28.00" cy="-616.00" r="15.06" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Iref"><path d="M-28.00,-625.77 L-28.00,-619.26" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Iref"><path d="M-28.00,-606.23 L-34.51,-619.26 L-21.49,-619.26 L-28.00,-606.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Iref"><path d="M-28.00,-631.06 L-28.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Iref"><path d="M-28.00,-600.94 L-28.00,-588.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mref"><path d="M-8.06,-219.77 L-28.00,-219.77 L-28.00,-238.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mref"><path d="M2.52,-223.43 L2.52,-196.57 L-1.55,-196.57 L-1.55,-223.43 L2.52,-223.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Mref"><path d="M-4.80,-227.50 L-4.80,-192.50 L-8.87,-192.50 L-8.87,-227.50 L-4.80,-227.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Mref"><path d="M0.49,-210.00 L14.00,-210.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mref"><path d="M-6.84,-200.23 L-28.00,-200.23 L-28.00,-182.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mref"><path d="M-28.81,-200.23 L-15.79,-205.93 L-15.79,-194.53 L-28.81,-200.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Mtail"><path d="M372.06,-219.77 L392.00,-219.77 L392.00,-238.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mtail"><path d="M361.48,-223.43 L361.48,-196.57 L365.55,-196.57 L365.55,-223.43 L361.48,-223.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Mtail"><path d="M368.80,-227.50 L368.80,-192.50 L372.87,-192.50 L372.87,-227.50 L368.80,-227.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Mtail"><path d="M363.51,-210.00 L350.00,-210.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mtail"><path d="M370.84,-200.23 L392.00,-200.23 L392.00,-182.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Mtail"><path d="M392.81,-200.23 L379.79,-205.93 L379.79,-194.53 L392.81,-200.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M1"><path d="M232.06,-457.77 L252.00,-457.77 L252.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M1"><path d="M221.48,-461.43 L221.48,-434.57 L225.55,-434.57 L225.55,-461.43 L221.48,-461.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M1"><path d="M228.80,-465.50 L228.80,-430.50 L232.87,-430.50 L232.87,-465.50 L228.80,-465.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M1"><path d="M223.51,-448.00 L210.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M1"><path d="M230.84,-438.23 L252.00,-438.23 L252.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M1"><path d="M252.81,-438.23 L239.79,-443.93 L239.79,-432.53 L252.81,-438.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M2"><path d="M551.94,-457.77 L532.00,-457.77 L532.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M2"><path d="M562.52,-461.43 L562.52,-434.57 L558.45,-434.57 L558.45,-461.43 L562.52,-461.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M2"><path d="M555.20,-465.50 L555.20,-430.50 L551.13,-430.50 L551.13,-465.50 L555.20,-465.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M2"><path d="M560.49,-448.00 L574.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M2"><path d="M553.16,-438.23 L532.00,-438.23 L532.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M2"><path d="M531.19,-438.23 L544.21,-443.93 L544.21,-432.53 L531.19,-438.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M3"><path d="M271.94,-634.23 L252.00,-634.23 L252.00,-616.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M3"><path d="M282.52,-657.43 L282.52,-630.57 L278.45,-630.57 L278.45,-657.43 L282.52,-657.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M3"><path d="M275.20,-661.50 L275.20,-626.50 L271.13,-626.50 L271.13,-661.50 L275.20,-661.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M3"><path d="M280.49,-644.00 L294.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M3"><path d="M258.10,-653.97 L252.00,-653.97 L252.00,-672.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M3"><path d="M271.13,-653.97 L258.10,-659.67 L258.10,-648.27 L271.13,-653.97 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M4"><path d="M512.06,-634.23 L532.00,-634.23 L532.00,-616.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M4"><path d="M501.48,-657.43 L501.48,-630.57 L505.55,-630.57 L505.55,-657.43 L501.48,-657.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M4"><path d="M508.80,-661.50 L508.80,-626.50 L512.87,-626.50 L512.87,-661.50 L508.80,-661.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M4"><path d="M503.51,-644.00 L490.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M4"><path d="M525.90,-653.97 L532.00,-653.97 L532.00,-672.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M4"><path d="M512.87,-653.97 L525.90,-659.67 L525.90,-648.27 L512.87,-653.97 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#R1"><path d="M-7.00,63.00 L8.79,63.00 L12.05,55.48 L15.30,69.45 L19.37,55.48 L23.44,69.98 L27.51,55.48 L31.58,69.45 L33.21,63.00 L49.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#R2"><path d="M231.00,63.00 L215.21,63.00 L211.95,70.52 L208.70,56.55 L204.63,70.52 L200.56,56.02 L196.49,70.52 L192.42,56.55 L190.79,63.00 L175.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C1"><path d="M16.47,142.73 L16.47,165.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C1"><path d="M25.53,142.73 L25.53,165.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C1"><path d="M16.47,154.00 L-7.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C1"><path d="M25.53,154.00 L49.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C2"><path d="M207.53,165.27 L207.53,142.73" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C2"><path d="M198.47,165.27 L198.47,142.73" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C2"><path d="M207.53,154.00 L231.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C2"><path d="M198.47,154.00 L175.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M5"><path d="M890.06,-634.23 L910.00,-634.23 L910.00,-616.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M5"><path d="M879.48,-657.43 L879.48,-630.57 L883.55,-630.57 L883.55,-657.43 L879.48,-657.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M5"><path d="M886.80,-661.50 L886.80,-626.50 L890.87,-626.50 L890.87,-661.50 L886.80,-661.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M5"><path d="M881.51,-644.00 L868.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M5"><path d="M903.90,-653.97 L910.00,-653.97 L910.00,-672.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M5"><path d="M890.87,-653.97 L903.90,-659.67 L903.90,-648.27 L890.87,-653.97 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M6"><path d="M1184.06,-634.23 L1204.00,-634.23 L1204.00,-616.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M6"><path d="M1173.48,-657.43 L1173.48,-630.57 L1177.55,-630.57 L1177.55,-657.43 L1173.48,-657.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M6"><path d="M1180.80,-661.50 L1180.80,-626.50 L1184.87,-626.50 L1184.87,-661.50 L1180.80,-661.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M6"><path d="M1175.51,-644.00 L1162.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M6"><path d="M1197.90,-653.97 L1204.00,-653.97 L1204.00,-672.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M6"><path d="M1184.87,-653.97 L1197.90,-659.67 L1197.90,-648.27 L1184.87,-653.97 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M7"><path d="M929.94,-457.77 L910.00,-457.77 L910.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M7"><path d="M940.52,-461.43 L940.52,-434.57 L936.45,-434.57 L936.45,-461.43 L940.52,-461.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M7"><path d="M933.20,-465.50 L933.20,-430.50 L929.13,-430.50 L929.13,-465.50 L933.20,-465.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M7"><path d="M938.49,-448.00 L952.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M7"><path d="M931.16,-438.23 L910.00,-438.23 L910.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M7"><path d="M909.19,-438.23 L922.21,-443.93 L922.21,-432.53 L909.19,-438.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M8"><path d="M1184.06,-457.77 L1204.00,-457.77 L1204.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M8"><path d="M1173.48,-461.43 L1173.48,-434.57 L1177.55,-434.57 L1177.55,-461.43 L1173.48,-461.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M8"><path d="M1180.80,-465.50 L1180.80,-430.50 L1184.87,-430.50 L1184.87,-465.50 L1180.80,-465.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M8"><path d="M1175.51,-448.00 L1162.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M8"><path d="M1182.84,-438.23 L1204.00,-438.23 L1204.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M8"><path d="M1204.81,-438.23 L1191.79,-443.93 L1191.79,-432.53 L1204.81,-438.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M9"><path d="M1450.06,-457.77 L1470.00,-457.77 L1470.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M9"><path d="M1439.48,-461.43 L1439.48,-434.57 L1443.55,-434.57 L1443.55,-461.43 L1439.48,-461.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M9"><path d="M1446.80,-465.50 L1446.80,-430.50 L1450.87,-430.50 L1450.87,-465.50 L1446.80,-465.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M9"><path d="M1441.51,-448.00 L1428.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M9"><path d="M1448.84,-438.23 L1470.00,-438.23 L1470.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M9"><path d="M1470.81,-438.23 L1457.79,-443.93 L1457.79,-432.53 L1470.81,-438.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M10"><path d="M1674.06,-457.77 L1694.00,-457.77 L1694.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M10"><path d="M1663.48,-461.43 L1663.48,-434.57 L1667.55,-434.57 L1667.55,-461.43 L1663.48,-461.43 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M10"><path d="M1670.80,-465.50 L1670.80,-430.50 L1674.87,-430.50 L1674.87,-465.50 L1670.80,-465.50 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#M10"><path d="M1665.51,-448.00 L1652.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M10"><path d="M1672.84,-438.23 L1694.00,-438.23 L1694.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#M10"><path d="M1694.81,-438.23 L1681.79,-443.93 L1681.79,-432.53 L1694.81,-438.23 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#R3"><path d="M567.00,63.00 L582.79,63.00 L586.05,55.48 L589.30,69.45 L593.37,55.48 L597.44,69.98 L601.51,55.48 L605.58,69.45 L607.21,63.00 L623.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#R4"><path d="M805.00,63.00 L789.21,63.00 L785.95,70.52 L782.70,56.55 L778.63,70.52 L774.56,56.02 L770.49,70.52 L766.42,56.55 L764.79,63.00 L749.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C3"><path d="M590.47,142.73 L590.47,165.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C3"><path d="M599.53,142.73 L599.53,165.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C3"><path d="M590.47,154.00 L567.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C3"><path d="M599.53,154.00 L623.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C4"><path d="M781.53,165.27 L781.53,142.73" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C4"><path d="M772.47,165.27 L772.47,142.73" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#C4"><path d="M781.53,154.00 L805.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#C4"><path d="M772.47,154.00 L749.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Rzp"><path d="M1022.00,63.00 L1037.79,63.00 L1041.05,55.48 L1044.30,69.45 L1048.37,55.48 L1052.44,69.98 L1056.51,55.48 L1060.58,69.45 L1062.21,63.00 L1078.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Rzm"><path d="M1022.00,154.00 L1037.79,154.00 L1041.05,146.48 L1044.30,160.45 L1048.37,146.48 L1052.44,160.98 L1056.51,146.48 L1060.58,160.45 L1062.21,154.00 L1078.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Ccp"><path d="M1227.47,51.73 L1227.47,74.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#Ccp"><path d="M1236.53,51.73 L1236.53,74.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#Ccp"><path d="M1227.47,63.00 L1204.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Ccp"><path d="M1236.53,63.00 L1260.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Ccm"><path d="M1227.47,142.73 L1227.47,165.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#Ccm"><path d="M1236.53,142.73 L1236.53,165.27" fill="none" stroke="#1d1d1f" stroke-width="3.36"/></g>
+<g data-id="#Ccm"><path d="M1227.47,154.00 L1204.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="#Ccm"><path d="M1236.53,154.00 L1260.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_ground_symbol"><path d="M588.00,-747.60 L588.00,-733.60" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_ground_symbol"><path d="M579.05,-733.60 L596.95,-733.60" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%port_ground_symbol"><path d="M582.30,-725.46 L593.70,-725.46" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%port_ground_symbol"><path d="M584.74,-718.13 L591.26,-718.13" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%ground_rail"><path d="M588.00,-112.00 L588.00,-98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%ground_rail"><path d="M579.05,-98.00 L596.95,-98.00" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%ground_rail"><path d="M582.30,-89.86 L593.70,-89.86" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%ground_rail"><path d="M584.74,-82.53 L591.26,-82.53" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%M9_ground"><path d="M1470.00,-364.00 L1470.00,-350.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M9_ground"><path d="M1461.05,-350.00 L1478.95,-350.00" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%M9_ground"><path d="M1464.30,-341.86 L1475.70,-341.86" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%M9_ground"><path d="M1466.74,-334.53 L1473.26,-334.53" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%M10_ground"><path d="M1694.00,-364.00 L1694.00,-350.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M10_ground"><path d="M1685.05,-350.00 L1702.95,-350.00" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%M10_ground"><path d="M1688.30,-341.86 L1699.70,-341.86" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%M10_ground"><path d="M1690.74,-334.53 L1697.26,-334.53" fill="none" stroke="#1d1d1f" stroke-width="4.07"/></g>
+<g data-id="%supply_input"><path d="M392.00,-764.40 L392.00,-790.30" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%supply_input"><path d="M378.00,-793.63 L406.00,-793.63 L406.00,-789.10 L378.00,-789.10 L378.00,-793.63 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="%supply_output"><path d="M1057.00,-764.40 L1057.00,-790.30" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%supply_output"><path d="M1043.00,-793.63 L1071.00,-793.63 L1071.00,-789.10 L1043.00,-789.10 L1043.00,-793.63 Z" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="%p_vdd"><circle cx="-28.00" cy="-784.12" r="3.47" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%p_vdd"><path d="M-28.00,-774.20 L-28.00,-780.65" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%p_ground"><circle cx="588.00" cy="-784.12" r="3.47" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%p_ground"><path d="M588.00,-774.20 L588.00,-780.65" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_ip"><circle cx="119.00" cy="-784.12" r="3.47" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_ip"><path d="M119.00,-774.20 L119.00,-780.65" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_im"><circle cx="672.00" cy="-784.12" r="3.47" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_im"><path d="M672.00,-774.20 L672.00,-780.65" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_op"><circle cx="989.92" cy="-546.00" r="3.47" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_op"><path d="M980.00,-546.00 L986.45,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_om"><circle cx="1283.92" cy="-546.00" r="3.47" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_om"><path d="M1274.00,-546.00 L1280.45,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M9_drain"><path d="M1442.00,-546.00 L1428.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M9_gate"><path d="M1386.00,-448.00 L1372.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M10_drain"><path d="M1666.00,-546.00 L1652.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M10_gate"><path d="M1610.00,-448.00 L1596.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%gate_a"><path d="M364.00,-686.00 L350.00,-686.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_xp"><path d="M182.00,-546.00 L168.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_xm"><path d="M602.00,-546.00 L616.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M5_drive"><path d="M840.00,-644.00 L826.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M6_drive"><path d="M1120.00,-644.00 L1106.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%gate_s"><path d="M1036.00,-392.00 L1022.00,-392.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%sense_end_10"><path d="M-91.00,98.00 L-105.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%sense_end_12"><path d="M315.00,98.00 L329.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%sense_end_30"><path d="M483.00,98.00 L469.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%sense_end_32"><path d="M889.00,98.00 L903.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%comp_in_p"><path d="M980.00,63.00 L966.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%comp_out_p"><path d="M1302.00,63.00 L1316.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%comp_in_m"><path d="M980.00,154.00 L966.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%comp_out_m"><path d="M1302.00,154.00 L1316.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="392.00" cy="-742.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="1057.00" cy="-742.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="392.00" cy="-126.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="588.00" cy="-126.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="910.00" cy="-126.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="-28.00" cy="-280.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="35.00" cy="-210.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="392.00" cy="-364.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="392.00" cy="-644.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="252.00" cy="-546.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="532.00" cy="-546.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="910.00" cy="-546.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="1204.00" cy="-546.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="1064.00" cy="-448.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="-70.00" cy="98.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="112.00" cy="63.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="112.00" cy="154.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="294.00" cy="98.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="504.00" cy="98.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="686.00" cy="63.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="686.00" cy="154.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="a usage of $JUNCTION"><circle cx="868.00" cy="98.00" r="5.29" fill="#1d1d1f" stroke="none"/></g>
+<g data-id="#Iref::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-7.00" y="-619.50" font-size="14.00" font-weight="bold" textLength="24.07" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Iref</text></g></g>
+<g data-id="#Iref::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-7.00" y="-599.20" font-size="14.00" font-weight="bold" textLength="116.98" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">2.077771516e-05</text></g></g>
+<g data-id="#Mref::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-119.00" y="-224.00" font-size="14.00" font-weight="bold" textLength="31.39" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Mref</text></g></g>
+<g data-id="#Mtail::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="410.20" y="-224.00" font-size="14.00" font-weight="bold" textLength="34.78" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Mtail</text></g></g>
+<g data-id="#M1::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="270.20" y="-462.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M1</text></g></g>
+<g data-id="#M2::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="439.60" y="-462.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M2</text></g></g>
+<g data-id="#M3::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="159.60" y="-658.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M3</text></g></g>
+<g data-id="#M4::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="550.20" y="-658.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M4</text></g></g>
+<g data-id="#R1::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-7.00" y="44.80" font-size="14.00" font-weight="bold" textLength="17.81" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">R1</text></g></g>
+<g data-id="#R1::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-7.00" y="88.90" font-size="14.00" font-weight="bold" textLength="33.24" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">800k</text></g></g>
+<g data-id="#R2::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="175.00" y="44.80" font-size="14.00" font-weight="bold" textLength="17.81" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">R2</text></g></g>
+<g data-id="#R2::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="175.00" y="88.90" font-size="14.00" font-weight="bold" textLength="33.24" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">800k</text></g></g>
+<g data-id="#C1::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-7.00" y="135.80" font-size="14.00" font-weight="bold" textLength="17.44" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">C1</text></g></g>
+<g data-id="#C1::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-7.00" y="179.90" font-size="14.00" font-weight="bold" textLength="21.73" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">40f</text></g></g>
+<g data-id="#C2::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="175.00" y="135.80" font-size="14.00" font-weight="bold" textLength="17.44" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">C2</text></g></g>
+<g data-id="#C2::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="175.00" y="179.90" font-size="14.00" font-weight="bold" textLength="21.73" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">40f</text></g></g>
+<g data-id="#M5::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="928.20" y="-658.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M5</text></g></g>
+<g data-id="#M6::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1222.20" y="-658.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M6</text></g></g>
+<g data-id="#M7::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="812.00" y="-462.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M7</text></g></g>
+<g data-id="#M8::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1222.20" y="-462.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M8</text></g></g>
+<g data-id="#M9::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1488.20" y="-462.00" font-size="14.00" font-weight="bold" textLength="20.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M9</text></g></g>
+<g data-id="#M10::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1712.20" y="-462.00" font-size="14.00" font-weight="bold" textLength="28.46" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">M10</text></g></g>
+<g data-id="#R3::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="567.00" y="44.80" font-size="14.00" font-weight="bold" textLength="17.81" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">R3</text></g></g>
+<g data-id="#R3::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="567.00" y="88.90" font-size="14.00" font-weight="bold" textLength="33.24" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">800k</text></g></g>
+<g data-id="#R4::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="749.00" y="44.80" font-size="14.00" font-weight="bold" textLength="17.81" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">R4</text></g></g>
+<g data-id="#R4::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="749.00" y="88.90" font-size="14.00" font-weight="bold" textLength="33.24" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">800k</text></g></g>
+<g data-id="#C3::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="567.00" y="135.80" font-size="14.00" font-weight="bold" textLength="17.44" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">C3</text></g></g>
+<g data-id="#C3::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="567.00" y="179.90" font-size="14.00" font-weight="bold" textLength="21.73" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">40f</text></g></g>
+<g data-id="#C4::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="749.00" y="135.80" font-size="14.00" font-weight="bold" textLength="17.44" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">C4</text></g></g>
+<g data-id="#C4::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="749.00" y="179.90" font-size="14.00" font-weight="bold" textLength="21.73" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">40f</text></g></g>
+<g data-id="#Rzp::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1022.00" y="44.80" font-size="14.00" font-weight="bold" textLength="25.72" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Rzp</text></g></g>
+<g data-id="#Rzp::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1022.00" y="88.90" font-size="14.00" font-weight="bold" textLength="33.04" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">2810</text></g></g>
+<g data-id="#Rzm::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1022.00" y="135.80" font-size="14.00" font-weight="bold" textLength="30.20" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Rzm</text></g></g>
+<g data-id="#Rzm::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1022.00" y="179.90" font-size="14.00" font-weight="bold" textLength="33.04" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">2810</text></g></g>
+<g data-id="#Ccp::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1204.00" y="44.80" font-size="14.00" font-weight="bold" textLength="25.58" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Ccp</text></g></g>
+<g data-id="#Ccp::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1204.00" y="88.90" font-size="14.00" font-weight="bold" textLength="29.99" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">245f</text></g></g>
+<g data-id="#Ccm::name"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1204.00" y="135.80" font-size="14.00" font-weight="bold" textLength="30.06" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Ccm</text></g></g>
+<g data-id="#Ccm::value"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1204.00" y="179.90" font-size="14.00" font-weight="bold" textLength="29.99" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">245f</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-84.00" y="-924.00" font-size="30.80" font-weight="bold" textLength="276.03" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Fourth-round OTA</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-84.00" y="-875.00" font-size="14.56" font-weight="bold" textLength="596.68" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">180 nm   /   1.1 V nominal   /   W/L in micrometres   /   NMOS bulk = 0, PMOS bulk = vdd</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1465.84" y="-826.00" font-size="17.50" font-weight="bold" textLength="232.33" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Complementary pull-down</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-84.00" y="-826.00" font-size="17.50" font-weight="bold" textLength="196.07" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Reference and tail bias</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="292.09" y="-826.00" font-size="17.50" font-weight="bold" textLength="199.81" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Differential input stage</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="949.75" y="-826.00" font-size="17.50" font-weight="bold" textLength="214.50" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Common-source outputs</text></g></g>
+<g data-id="#Mref::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-119.00" y="-196.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">14.1u/0.6u</text></g></g>
+<g data-id="#Mtail::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="410.20" y="-196.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">94.8u/0.6u</text></g></g>
+<g data-id="#M1::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="270.20" y="-434.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">31.7u/0.6u</text></g></g>
+<g data-id="#M2::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="439.60" y="-434.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">31.7u/0.6u</text></g></g>
+<g data-id="#M3::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="159.60" y="-630.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">53.4u/0.6u</text></g></g>
+<g data-id="#M4::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="550.20" y="-630.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">53.4u/0.6u</text></g></g>
+<g data-id="#M5::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="928.20" y="-630.00" font-size="11.76" font-weight="bold" textLength="75.75" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">108.3u/0.42u</text></g></g>
+<g data-id="#M6::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1222.20" y="-630.00" font-size="11.76" font-weight="bold" textLength="75.75" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">108.3u/0.42u</text></g></g>
+<g data-id="#M7::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="812.00" y="-434.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">36.8u/0.9u</text></g></g>
+<g data-id="#M8::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1222.20" y="-434.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">36.8u/0.9u</text></g></g>
+<g data-id="#M9::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1488.20" y="-434.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">4.1u/0.75u</text></g></g>
+<g data-id="#M10::wl"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1712.20" y="-434.00" font-size="11.76" font-weight="bold" textLength="61.87" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">4.1u/0.75u</text></g></g>
+<g data-id="%p_vdd::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-41.05" y="-795.73" font-size="14.00" font-weight="bold" textLength="26.10" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">vdd</text></g></g>
+<g data-id="a wire"><path d="M-28.00,-774.20 L-28.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%supply_input::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="378.95" y="-802.03" font-size="14.00" font-weight="bold" textLength="26.10" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">vdd</text></g></g>
+<g data-id="a wire"><path d="M392.00,-764.40 L392.00,-742.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M252.00,-672.00 L252.00,-742.00 L392.00,-742.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M392.00,-742.00 L532.00,-742.00 L532.00,-672.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%supply_output::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1043.95" y="-802.03" font-size="14.00" font-weight="bold" textLength="26.10" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">vdd</text></g></g>
+<g data-id="a wire"><path d="M1057.00,-764.40 L1057.00,-742.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M910.00,-672.00 L910.00,-742.00 L1057.00,-742.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1057.00,-742.00 L1204.00,-742.00 L1204.00,-672.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%p_ground::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="583.87" y="-795.73" font-size="14.00" font-weight="bold" textLength="8.26" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">0</text></g></g>
+<g data-id="a wire"><path d="M588.00,-774.20 L588.00,-747.60" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M-28.00,-182.00 L-28.00,-126.00 L392.00,-126.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M392.00,-126.00 L392.00,-182.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M392.00,-126.00 L588.00,-126.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M588.00,-126.00 L588.00,-112.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M588.00,-126.00 L910.00,-126.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M910.00,-126.00 L910.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M910.00,-126.00 L1204.00,-126.00 L1204.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M9_drain::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1406.02" y="-539.90" font-size="14.00" font-weight="bold" textLength="17.78" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">op</text></g></g>
+<g data-id="a wire"><path d="M1442.00,-546.00 L1470.00,-546.00 L1470.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M9_gate::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1350.92" y="-441.90" font-size="14.00" font-weight="bold" textLength="16.88" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xp</text></g></g>
+<g data-id="a wire"><path d="M1386.00,-448.00 L1428.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1470.00,-420.00 L1470.00,-364.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M10_drain::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1625.54" y="-539.90" font-size="14.00" font-weight="bold" textLength="22.26" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">om</text></g></g>
+<g data-id="a wire"><path d="M1666.00,-546.00 L1694.00,-546.00 L1694.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M10_gate::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1570.44" y="-441.90" font-size="14.00" font-weight="bold" textLength="21.36" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xm</text></g></g>
+<g data-id="a wire"><path d="M1610.00,-448.00 L1652.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1694.00,-420.00 L1694.00,-364.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M-28.00,-588.00 L-28.00,-280.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M-28.00,-280.00 L-28.00,-238.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M-28.00,-280.00 L35.00,-280.00 L35.00,-210.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M14.00,-210.00 L35.00,-210.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M35.00,-210.00 L350.00,-210.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="182.00" y="-219.80" font-size="14.00" font-weight="bold" textLength="9.02" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">b</text></g></g>
+<g data-id="a wire"><path d="M252.00,-420.00 L252.00,-364.00 L392.00,-364.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M392.00,-364.00 L532.00,-364.00 L532.00,-420.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M392.00,-364.00 L392.00,-238.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="406.00" y="-350.00" font-size="14.00" font-weight="bold" textLength="5.89" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">t</text></g></g>
+<g data-id="a wire"><path d="M294.00,-644.00 L392.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M392.00,-644.00 L490.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%gate_a::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="337.53" y="-679.90" font-size="14.00" font-weight="bold" textLength="8.27" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">a</text></g></g>
+<g data-id="a wire"><path d="M392.00,-644.00 L392.00,-686.00 L364.00,-686.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_ip::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="112.36" y="-795.73" font-size="14.00" font-weight="bold" textLength="13.27" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">ip</text></g></g>
+<g data-id="a wire"><path d="M119.00,-774.20 L119.00,-448.00 L210.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%port_im::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="663.12" y="-795.73" font-size="14.00" font-weight="bold" textLength="17.75" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">im</text></g></g>
+<g data-id="a wire"><path d="M672.00,-774.20 L672.00,-448.00 L574.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M252.00,-616.00 L252.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M252.00,-546.00 L252.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_xp::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="146.92" y="-539.90" font-size="14.00" font-weight="bold" textLength="16.88" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xp</text></g></g>
+<g data-id="a wire"><path d="M252.00,-546.00 L182.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M532.00,-616.00 L532.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M532.00,-546.00 L532.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_xm::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="620.20" y="-539.90" font-size="14.00" font-weight="bold" textLength="21.36" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xm</text></g></g>
+<g data-id="a wire"><path d="M532.00,-546.00 L602.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M910.00,-616.00 L910.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M910.00,-546.00 L910.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_op::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="997.50" y="-539.90" font-size="14.00" font-weight="bold" textLength="17.78" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">op</text></g></g>
+<g data-id="a wire"><path d="M910.00,-546.00 L980.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1204.00,-616.00 L1204.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1204.00,-546.00 L1204.00,-476.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%tag_om::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1291.50" y="-539.90" font-size="14.00" font-weight="bold" textLength="22.26" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">om</text></g></g>
+<g data-id="a wire"><path d="M1204.00,-546.00 L1274.00,-546.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M5_drive::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="804.92" y="-637.90" font-size="14.00" font-weight="bold" textLength="16.88" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xp</text></g></g>
+<g data-id="a wire"><path d="M840.00,-644.00 L868.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%M6_drive::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1080.44" y="-637.90" font-size="14.00" font-weight="bold" textLength="21.36" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xm</text></g></g>
+<g data-id="a wire"><path d="M1120.00,-644.00 L1162.00,-644.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M952.00,-448.00 L1064.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1064.00,-448.00 L1162.00,-448.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%gate_s::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1010.87" y="-385.90" font-size="14.00" font-weight="bold" textLength="6.93" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">s</text></g></g>
+<g data-id="a wire"><path d="M1064.00,-448.00 L1064.00,-392.00 L1036.00,-392.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-84.00" y="-28.00" font-size="17.50" font-weight="bold" textLength="235.43" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Input common-mode sense</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="490.00" y="-28.00" font-size="17.50" font-weight="bold" textLength="250.42" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Output common-mode sense</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="952.00" y="-28.00" font-size="17.50" font-weight="bold" textLength="176.61" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">Miller compensation</text></g></g>
+<g data-id="%sense_end_10::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="-126.08" y="104.10" font-size="14.00" font-weight="bold" textLength="16.88" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xp</text></g></g>
+<g data-id="a wire"><path d="M-70.00,98.00 L-91.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M112.00,63.00 L112.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="121.10" y="89.60" font-size="14.00" font-weight="bold" textLength="8.27" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">a</text></g></g>
+<g data-id="%sense_end_12::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="333.20" y="104.10" font-size="14.00" font-weight="bold" textLength="21.36" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xm</text></g></g>
+<g data-id="a wire"><path d="M294.00,98.00 L315.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M-70.00,98.00 L-70.00,63.00 L-7.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M49.00,63.00 L112.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M-70.00,98.00 L-70.00,154.00 L-7.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M49.00,154.00 L112.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M112.00,63.00 L175.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M231.00,63.00 L294.00,63.00 L294.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M112.00,154.00 L175.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M231.00,154.00 L294.00,154.00 L294.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%sense_end_30::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="447.02" y="104.10" font-size="14.00" font-weight="bold" textLength="17.78" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">op</text></g></g>
+<g data-id="a wire"><path d="M504.00,98.00 L483.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M686.00,63.00 L686.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="695.10" y="89.60" font-size="14.00" font-weight="bold" textLength="6.93" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">s</text></g></g>
+<g data-id="%sense_end_32::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="907.20" y="104.10" font-size="14.00" font-weight="bold" textLength="22.26" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">om</text></g></g>
+<g data-id="a wire"><path d="M868.00,98.00 L889.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M504.00,98.00 L504.00,63.00 L567.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M623.00,63.00 L686.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M504.00,98.00 L504.00,154.00 L567.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M623.00,154.00 L686.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M686.00,63.00 L749.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M805.00,63.00 L868.00,63.00 L868.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M686.00,154.00 L749.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M805.00,154.00 L868.00,154.00 L868.00,98.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="140.00" y="-70.00" font-size="13.44" font-weight="bold" textLength="283.01" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xp/xm = 0.518 V  /  63.5 uA per input branch</text></g></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="896.00" y="-70.00" font-size="13.44" font-weight="bold" textLength="304.95" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">op/om = 0.589 V  /  152.9 uA per pull-up branch</text></g></g>
+<g data-id="%comp_in_p::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="944.92" y="69.10" font-size="14.00" font-weight="bold" textLength="16.88" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xp</text></g></g>
+<g data-id="a wire"><path d="M980.00,63.00 L1022.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1078.00,63.00 L1204.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1120.00" y="53.20" font-size="12.32" font-weight="bold" textLength="14.23" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">zp</text></g></g>
+<g data-id="%comp_out_p::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1320.20" y="69.10" font-size="14.00" font-weight="bold" textLength="17.78" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">op</text></g></g>
+<g data-id="a wire"><path d="M1260.00,63.00 L1302.00,63.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="%comp_in_m::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="940.44" y="160.10" font-size="14.00" font-weight="bold" textLength="21.36" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">xm</text></g></g>
+<g data-id="a wire"><path d="M980.00,154.00 L1022.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a wire"><path d="M1078.00,154.00 L1204.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+<g data-id="a text"><g transform="matrix(1.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1120.00" y="144.20" font-size="12.32" font-weight="bold" textLength="18.17" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">zm</text></g></g>
+<g data-id="%comp_out_m::netname"><g transform="matrix(1.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -0.000000000)"><text x="1320.20" y="160.10" font-size="14.00" font-weight="bold" textLength="22.26" lengthAdjust="spacingAndGlyphs" fill="#1d1d1f" xml:space="preserve">om</text></g></g>
+<g data-id="a wire"><path d="M1260.00,154.00 L1302.00,154.00" fill="none" stroke="#1d1d1f" stroke-width="2.24"/></g>
+</svg>

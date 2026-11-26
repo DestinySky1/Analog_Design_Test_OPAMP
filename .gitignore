@@ -1,3 +1,5 @@
 __pycache__/
 /report/*.aux
 /report/*.log
+/round4/design.aux
+/round4/design.log

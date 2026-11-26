@@ -1,11 +1,17 @@
 # Analog_Design_Test_OPAMP
 运放的前后仿测试仿真
 
-## 三轮 OTA 设计
+## 第四版 OTA
+
+[分级设计记录与版本对照](round4/README.md) · [四页报告](round4/design.pdf) · [第一级](round4/stage1.cir) · [第二级](round4/stage2.cir) · [整机 SPICE 网表](round4/ota.cir) · [RNL](round4/ota.rnl.sp) · [矢量原理图](round4/ota.rnl.svg) · [完整仿真审核包](https://github.com/DestinySky1/Analog_Design_Test_OPAMP/releases/download/v0.2.0/round4-review.zip)
+
+先用 180 nm 模型扫描单管，再分别测两个局部级，最后组合验证整机。尾管最差饱和余量从第三版的 −3.28 mV 提高到 +36.66 mV，标称功耗从 0.353 mW 增到 0.499 mW。
+
+## 前三轮 OTA 设计
 
 [五页设计报告](report/ota.pdf) · [三轮指标对照](round3/改进记录.md) · [原始附件](REF/) · [审核原始数据](audit/nominal.zip)
 
-### 最终网表与原理图
+### 第三版网表与原理图
 
 [在 RNL Viewer 打开 OTA](https://rich-netlist.github.io/rnl/viewer/?url=https%3A%2F%2Fraw.githubusercontent.com%2FDestinySky1%2FAnalog_Design_Test_OPAMP%2Fmain%2Fround3%2Fota.rnl.sp&level=ota) · [RNL 源文件](round3/ota.rnl.sp) · [SVG 矢量原理图](round3/ota.rnl.svg) · [高清 PNG](round3/ota.rnl.png) · [仿真用 SPICE 网表](round3/ota.cir)
 
