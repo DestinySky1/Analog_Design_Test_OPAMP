@@ -5,6 +5,23 @@
 
 [五页设计报告](report/ota.pdf) · [三轮指标对照](round3/改进记录.md) · [原始附件](REF/) · [审核原始数据](audit/nominal.zip)
 
+### 最终网表与原理图
+
+[在 RNL Viewer 打开 OTA](https://rich-netlist.github.io/rnl/viewer/?url=https%3A%2F%2Fraw.githubusercontent.com%2FDestinySky1%2FAnalog_Design_Test_OPAMP%2Fmain%2Fround3%2Fota.rnl.sp&level=ota) · [RNL 源文件](round3/ota.rnl.sp) · [SVG 矢量原理图](round3/ota.rnl.svg) · [高清 PNG](round3/ota.rnl.png) · [仿真用 SPICE 网表](round3/ota.cir)
+
+RNL 文件在原始 SPICE 网表中用注释保存符号、位置和布线。也可以在 Viewer 中选择 **File → Open File** 打开下载的 `ota.rnl.sp`，选择 `ota` 层。SVG 适合放大查看，PNG 为 2968 × 2414 像素。
+
+图中采用 RNL 0.4 的 `rnl-std-all` 标准库，可按下面的方法读图或绘制同类单元。[官方中文指南](https://rich-netlist.github.io/rnl/zh/)
+
+| 单元 | 画法及本图对应器件 |
+|---|---|
+| 差分输入对 | M1、M2 左右镜像，栅极朝外，公共源节点 `t` 向下接居中的 Mtail。PMOS 源极朝上接 `vdd`。 |
+| 偏置电流镜 | 将参考管 Mref 的漏栅短接画成回线，并用实心点标出与 Mtail 共用的栅极节点 `b`。 |
+| 共模检测、补偿 | 两组共模检测桥分别画出取样点 `a` 和 `s`。两条串联 RC 补偿支路上下对齐，按 `xp → op`、`xm → om` 读；同名网络标签与上方主电路相连。 |
+| 衬底 | 图中统一注明 NMOS 体端接 `0`、PMOS 体端接 `vdd`。每只 MOS 的四个端子均可在 RNL 的 SPICE 行中按 D、G、S、B 顺序核对。 |
+
+### 三轮记录
+
 | 阶段 | 可复核的内容 |
 |---|---|
 | 第一遍 | [冻结网表与测量](round1/)，提交 dca5841，早于首次查阅答案 |
