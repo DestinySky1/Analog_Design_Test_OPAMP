@@ -1,0 +1,27 @@
+* Two-stage fully differential OTA, 180 nm. D G S B ordering.
+* Node p corresponds to the positive output for increasing ip-im.
+.subckt ota ip im op om vdd 0
+Iref vdd b 17.2u
+Mref b b 0 0 nch W=10.0u L=0.6u
+Mtail t b 0 0 nch W=57.6u L=0.6u
+M1 xp ip t 0 nch W=18u L=0.55u
+M2 xm im t 0 nch W=18u L=0.55u
+M3 xp a vdd vdd pch W=28u L=0.42u
+M4 xm a vdd vdd pch W=28u L=0.42u
+M5 op xp vdd vdd pch W=64.4u L=0.42u
+M6 om xm vdd vdd pch W=64.4u L=0.42u
+M7 op s 0 0 nch W=22u L=0.64u
+M8 om s 0 0 nch W=22u L=0.64u
+R1 xp a 800k
+R2 xm a 800k
+R3 op s 800k
+R4 om s 800k
+C1 xp a 40f
+C2 xm a 40f
+C3 op s 40f
+C4 om s 40f
+Rzp xp zp 4150
+Rzm xm zm 4150
+Ccp zp op 200f
+Ccm zm om 200f
+.ends ota

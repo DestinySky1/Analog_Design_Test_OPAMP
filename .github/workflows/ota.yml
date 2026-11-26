@@ -49,6 +49,25 @@ jobs:
           name: bias-review
           path: bias-review/
           if-no-files-found: error
+      - name: Reproduce the tail-mirror sizing experiment
+        run: |
+          python3 sim/tail_sizing.py replay/tail-sizing
+          cmp audit/tail-sizing/candidate.cir replay/tail-sizing/candidate.cir
+          python3 - <<'PY'
+          import csv
+          import numpy as np
+          from pathlib import Path
+          def rows(path):
+              with path.open() as file:
+                  return list(csv.DictReader(file))
+          reference = rows(Path("audit/tail-sizing/verification.csv"))
+          replay = rows(Path("replay/tail-sizing/verification.csv"))
+          for expected, actual in zip(reference, replay, strict=True):
+              assert expected["corner"] == actual["corner"]
+              for key, value in expected.items():
+                  if key != "corner" and value:
+                      np.testing.assert_allclose(float(actual[key]), float(value), rtol=0.001, atol=1e-9)
+          PY
       - name: Rebuild report
         run: |
           python3 report/figures.py
