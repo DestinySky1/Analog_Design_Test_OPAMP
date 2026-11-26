@@ -1,6 +1,7 @@
 """Verify the RNL drawing against the simulation netlist and the Viewer export."""
 
 import json
+import sys
 import subprocess
 import tempfile
 from pathlib import Path
@@ -12,7 +13,7 @@ def geometry(path):
     return ElementTree.canonicalize(from_file=path, exclude_attrs={"data-id"}, strip_text=True)
 
 
-design = Path(__file__).resolve().parents[1] / "round3"
+design = Path(__file__).resolve().parents[1] / (sys.argv[1] if len(sys.argv) > 1 else "round3")
 source = design / "ota.rnl.sp"
 netlist = (design / "ota.cir").read_text().splitlines()
 original = [line for line in netlist if line and not line.startswith("*")]

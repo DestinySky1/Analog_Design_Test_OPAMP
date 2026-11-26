@@ -1,0 +1,12 @@
+.subckt block xp xm op om vdd 0
+M5 op xp vdd vdd pch W=98.4u L=0.5u
+M6 om xm vdd vdd pch W=98.4u L=0.5u
+M7 op s 0 0 nch W=30.7u L=0.9u
+M8 om s 0 0 nch W=30.7u L=0.9u
+M9 op xp 0 0 nch W=2.4u L=0.42u
+M10 om xm 0 0 nch W=2.4u L=0.42u
+R3 op s 800k
+R4 om s 800k
+C3 op s 40f
+C4 om s 40f
+.ends block

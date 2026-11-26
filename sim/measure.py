@@ -156,8 +156,9 @@ Vdd vdd 0 dc {vdd}
     pm = 180+phase[i]+frac*(phase[i+1]-phase[i])
     drive = f"Vcm cm 0 {VIC}\nVid id 0 dc {trim:.15g} ac 1\nEp ip cm id 0 0.5\nEm im cm id 0 -0.5\n"
     direct = common+drive+"Clp op 0 450f\nClm om 0 450f\n"
+    mos_suffixes = [line.split()[0][1:].lower() for line in dut.splitlines() if line.startswith("M")]
     op_expr = ["v(op)", "v(x1.xp)", "v(x1.t)", "v(x1.b)", "isupply"]
-    op_expr += [f"@m.x1.m{m}[{attr}]" for m in DEVICES for attr in ("id","gm","gds","vds","vdsat")]
+    op_expr += [f"@m.x1.m{m}[{attr}]" for m in mos_suffixes for attr in ("id","gm","gds","vds","vdsat")]
     ctl = "op\nlet isupply = -i(vdd)\nwrdata op.txt "+" ".join(op_expr)+"\n"+AC+"\nlet adm=v(op,om)\nwrdata adm.txt real(adm) imag(adm)"
     if full:
         ctl += "\ndc Vid -0.002 0.002 0.1u\nwrdata swing.txt v(op,om)\nalter Vid=0.1u\ndc Vcm 0 "+str(vdd)+" 0.001\nwrdata icmr.txt v(op,om)"

@@ -1,11 +1,17 @@
 # Analog_Design_Test_OPAMP
 运放的前后仿测试仿真
 
-## 三轮 OTA 设计
+## 第四版 OTA
+
+[分级设计记录与版本对照](round4/README.md) · [四页报告](round4/design.pdf) · [第一级](round4/stage1.cir) · [第二级](round4/stage2.cir) · [整机 SPICE 网表](round4/ota.cir) · [RNL](round4/ota.rnl.sp) · [矢量原理图](round4/ota.rnl.svg) · [完整仿真审核包](https://github.com/DestinySky1/Analog_Design_Test_OPAMP/releases/download/v0.2.0/round4-review.zip)
+
+先用 180 nm 模型扫描单管，再分别测两个局部级，最后组合验证整机。尾管最差饱和余量从第三版的 −3.28 mV 提高到 +36.66 mV，标称功耗从 0.353 mW 增到 0.499 mW。
+
+## 前三轮 OTA 设计
 
 [五页设计报告](report/ota.pdf) · [三轮指标对照](round3/改进记录.md) · [原始附件](REF/) · [审核原始数据](audit/nominal.zip)
 
-### 最终网表与原理图
+### 第三版网表与原理图
 
 [在 RNL Viewer 打开 OTA](https://rich-netlist.github.io/rnl/viewer/?url=https%3A%2F%2Fraw.githubusercontent.com%2FDestinySky1%2FAnalog_Design_Test_OPAMP%2Fmain%2Fround3%2Fota.rnl.sp&level=ota) · [RNL 源文件](round3/ota.rnl.sp) · [SVG 矢量原理图](round3/ota.rnl.svg) · [高清 PNG](round3/ota.rnl.png) · [仿真用 SPICE 网表](round3/ota.cir)
 
@@ -21,6 +27,8 @@ RNL 文件在原始 SPICE 网表中用注释保存符号、位置和布线。也
 | 衬底 | 图中统一注明 NMOS 体端接 `0`、PMOS 体端接 `vdd`。每只 MOS 的四个端子均可在 RNL 的 SPICE 行中按 D、G、S、B 顺序核对。 |
 
 [七项测试台补测与原始数据](audit/bias/README.md) 包括逐管偏置、输出共模阶跃、失配电流和三个共模环路探针。假设 SS、85 °C、1.1 V 下尾管饱和余量为 −3.28 mV。
+
+[尾镜 gm/ID 定尺实验](audit/tail-sizing/README.md) 给出了一个候选的尺寸推导、单管表格和定向验证。
 
 ### 三轮记录
 

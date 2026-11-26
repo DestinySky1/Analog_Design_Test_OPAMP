@@ -16,9 +16,7 @@ PINS = "ip im op om vdd 0"
 MOS = ["m" + suffix for suffix in DEVICES]
 ATTRS = ("id", "vds", "vdsat")
 VECTORS = ["v(op)", "v(om)", "v(x1.a)", "v(x1.s)", "v(ip,im)", "i(vdd)"]
-VECTORS += [f"@m.x1.{m}[{attr}]" for m in MOS for attr in ATTRS]
 HEADERS = ["op_V", "om_V", "a_V", "s_V", "vid_V", "supply_A"]
-HEADERS += [f"{m}_{attr}" for m in MOS for attr in ATTRS]
 DC_INPUT = f"Vcm cm 0 {VIC}\nVid id 0 0\nEp ip cm id 0 0.5\nEm im cm id 0 -0.5"
 CAPS = "Clp op 0 250f\nClm om 0 250f"
 
@@ -34,17 +32,18 @@ def circuit(temp=27, vdd=1.1, pins=PINS):
     return f".temp {temp}\n{OPTIONS}\nVdd vdd 0 {vdd}\nX1 {pins} ota\n"
 
 
-def dc(path, name, body, command="op"):
-    vectors = " ".join(VECTORS)
+def dc(path, name, body, command="op", devices=MOS):
+    vectors = " ".join(VECTORS + [f"@m.x1.{m}[{attr}]" for m in devices for attr in ATTRS])
+    headers = HEADERS + [f"{m}_{attr}" for m in devices for attr in ATTRS]
     run_spice(path, name, body, f"save all {vectors}\n{command}\nwrdata {name}.txt {vectors}")
     scale, *values = table(path, name)
     rows = []
     for value in zip(*values, strict=True):
-        r = dict(zip(HEADERS, value, strict=True))
+        r = dict(zip(headers, value, strict=True))
         r["supply_A"] *= -1
         r["voc_V"] = (r["op_V"] + r["om_V"]) / 2
         r["vod_V"] = r["op_V"] - r["om_V"]
-        for m in MOS:
+        for m in devices:
             r[f"{m}_margin_V"] = abs(r[f"{m}_vds"]) - abs(r[f"{m}_vdsat"])
         if not np.isfinite(list(r.values())).all():
             raise ValueError(f"Non-finite DC data in {path}/{name}")
@@ -59,12 +58,12 @@ def write_rows(path, rows):
         writer.writerows(rows)
 
 
-def sweeps(out, raw):
+def sweeps(out, raw, source=DUT, devices=MOS):
     rows = []
     for corner, vdd, temp in product(("tt", "ff", "ss", "fs", "sf"), (1.1, 1.2), (-25, -20, 27, 85)):
         path = raw / f"{corner}_{vdd}_{temp}"
-        setup(path, corner)
-        _, (r,) = dc(path, "op", circuit(temp, vdd) + DC_INPUT)
+        setup(path, corner, source=source)
+        _, (r,) = dc(path, "op", circuit(temp, vdd) + DC_INPUT, devices=devices)
         rows.append(dict(corner=corner, vdd_V=vdd, temp_C=temp, **r))
     write_rows(out / "pvt_dc.csv", rows)
     path = raw / "tt_1.1_27"
@@ -74,16 +73,16 @@ def sweeps(out, raw):
         body = circuit() + DC_INPUT
         if name == "input_cm":
             body = body.replace("Vid id 0 0", "Vid id 0 0.1u")
-        values, measurements = dc(path, name, body, cmd)
+        values, measurements = dc(path, name, body, cmd, devices)
         write_rows(out / (name + ".csv"), [{column: v, **r} for v, r in zip(values, measurements, strict=True)])
     return rows
 
 
-def monte_carlo(out, raw):
+def monte_carlo(out, raw, source=DUT):
     rows = []
     for seed in range(101, 121):
         path = raw / f"seed_{seed}"
-        setup(path, seed=seed)
+        setup(path, seed=seed, source=source)
         _, (zero,) = dc(path, "untrimmed", circuit() + DC_INPUT)
         servo = f"Bp ip 0 v={VIC}-v(op,om)/2\nBm im 0 v={VIC}+v(op,om)/2"
         _, (trim,) = dc(path, "autozero", circuit() + servo)
@@ -96,12 +95,12 @@ def monte_carlo(out, raw):
     write_rows(out / "monte_carlo.csv", rows)
 
 
-def large_signal(out, path):
+def large_signal(out, path, source=DUT, reference_dir=None, lower=("M7", "M8")):
     # Zero-volt meters include source and bulk displacement currents at the stage supply pins.
     lines = []
-    for line in DUT.splitlines():
+    for line in source.splitlines():
         fields = line.split()
-        if fields and fields[0] in ("M5", "M6", "M7", "M8"):
+        if fields and fields[0] in ("M5", "M6", *lower):
             node = "stage_vdd" if fields[0] in ("M5", "M6") else "stage_gnd"
             fields[3:5] = [node, node]
             line = " ".join(fields)
@@ -109,28 +108,32 @@ def large_signal(out, path):
             lines.extend(("Vs2p vdd stage_vdd 0", "Vs2n stage_gnd 0 0"))
         lines.append(line)
     setup(path, source="\n".join(lines))
-    # Instrument the exact input/feedback circuit used for the released third-round transient.
-    with ZipFile(ROOT / "audit/nominal.zip") as archive:
-        original = archive.read("round3/tran.cir").decode()
-        reference = np.loadtxt(archive.open("round3/step.txt"), skiprows=1)
+    if reference_dir is None:
+        with ZipFile(ROOT / "audit/nominal.zip") as archive:
+            original = archive.read("round3/tran.cir").decode()
+            reference = np.loadtxt(archive.open("round3/step.txt"), skiprows=1)
+    else:
+        original = (reference_dir / "tran.cir").read_text()
+        reference = np.loadtxt(reference_dir / "step.txt", skiprows=1)
     body = original.split(".include dut.lib\n", 1)[1].split(".control", 1)[0]
-    ids = " ".join(f"@m.x1.m{i}[id]" for i in (5, 6, 7, 8))
+    names = ["m5", "m6"] + [m.lower() for m in lower]
+    ids = " ".join(f"@m.x1.{m}[id]" for m in names)
     run_spice(path, "large_signal", body,
               f"save all {ids}\ntran 10p 200n 0 10p\nwrdata large_signal.txt v(op) v(om) {ids} i(v.x1.vs2p) i(v.x1.vs2n)")
-    t, op, om, i5, i6, i7, i8, supply, ground = table(path, "large_signal")
-    if t[-1] < 199.999e-9 or np.ptp(i5) < 1e-6:
+    t, op, om, *currents, supply, ground = table(path, "large_signal")
+    if t[-1] < 199.999e-9 or np.ptp(currents[0]) < 1e-6:
         raise ValueError("Incomplete transient or device currents")
     np.testing.assert_allclose(np.interp(reference[:, 0], t, op-om), reference[:, 1], atol=2e-5)
     np.savez_compressed(out / "large_signal.npz", time_s=t, op_V=op, om_V=om, vod_V=op-om,
-                        voc_V=(op+om)/2, m5_A=i5, m6_A=i6, m7_A=i7, m8_A=i8,
+                        voc_V=(op+om)/2, **{m+"_A": i for m, i in zip(names, currents, strict=True)},
                         stage2_from_vdd_A=supply, stage2_to_gnd_A=ground,
-                        upper_channel_sum_A=i5+i6, lower_channel_sum_A=i7+i8)
+                        upper_channel_sum_A=sum(currents[:2]), lower_channel_sum_A=sum(currents[2:]))
 
 
-def split_gate(node):
+def split_gate(node, source=DUT):
     devices = {"a": ("M3", "M4"), "s": ("M7", "M8")}[node]
     lines = []
-    for line in DUT.splitlines():
+    for line in source.splitlines():
         words = line.split()
         if words[:1] == [".subckt"]:
             line += f" {node} gate_probe"
@@ -142,7 +145,7 @@ def split_gate(node):
     return "\n".join(lines)
 
 
-def cm_loop(out, raw, location, op):
+def cm_loop(out, raw, location, op, source=DUT):
     # Close the external capacitive feedback in CM; keep the other internal CM loop closed.
     # 1e20 H supplies DC while appearing open even at the first AC point, 1 Hz.
     feedback = ("Vcm cm 0 0.75\nLp ip cm 1e20\nLm im cm 1e20\n"
@@ -152,7 +155,7 @@ def cm_loop(out, raw, location, op):
     path = raw / case / ("cm_" + location)
     curves = out / "cm" / case
     curves.mkdir(parents=True, exist_ok=True)
-    setup(path, op["corner"], source=DUT if external else split_gate(location))
+    setup(path, op["corner"], source=source if external else split_gate(location, source))
     pins = "ip im dp dm vdd 0" if external else PINS + " rx tx"
     body = circuit(op["temp_C"], op["vdd_V"], pins) + feedback + "\n"
     pairs = [("dp", "op"), ("dm", "om")] if external else [("tx", "rx")]
