@@ -2,11 +2,24 @@ name: OTA design review
 on:
   pull_request:
   push:
-    tags: ['v0.1.0']
+    tags: ['v0.1.0', 'v0.1.1']
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
+  schematic:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify the Viewer drawing against the simulation netlist
+        run: |
+          archive=rnl-x86_64-unknown-linux-musl.tar.gz
+          curl -fsSL --retry 3 "https://github.com/rich-netlist/rnl/releases/download/core-v0.6.2/$archive" -o "$RUNNER_TEMP/$archive"
+          echo "bba0575cd8c40d8973862e0d1740e4d860b9370aa14c3017005550de3d1415d7  $RUNNER_TEMP/$archive" | sha256sum -c -
+          tar -xzf "$RUNNER_TEMP/$archive" -C "$RUNNER_TEMP" rnl
+          export PATH="$RUNNER_TEMP:$PATH"
+          rnl check round3/ota.rnl.sp
+          python3 sim/check_schematic.py
   replay:
     runs-on: ubuntu-24.04
     container: debian:trixie
@@ -45,8 +58,8 @@ jobs:
             report/ota.pdf
             report/ota.log
   release:
-    if: github.ref == 'refs/tags/v0.1.0'
-    needs: replay
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: [replay, schematic]
     runs-on: ubuntu-24.04
     permissions:
       contents: write
@@ -61,4 +74,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           (cd verified-replay && zip -qr ../actions-replay.zip .)
-          gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.0 · 180 nm 全差分 OTA 三轮设计" --notes-file audit/release-notes.md verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
+          if [ "$GITHUB_REF_NAME" = v0.1.1 ]; then
+            gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.1 · 最终 OTA 网表与原理图" --generate-notes --notes-file audit/schematic-release.md round3/ota.rnl.sp round3/ota.rnl.svg round3/ota.rnl.png verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
+          else
+            gh release create "$GITHUB_REF_NAME" --verify-tag --title "v0.1.0 · 180 nm 全差分 OTA 三轮设计" --notes-file audit/release-notes.md verified-replay/report/ota.pdf audit/nominal.zip actions-replay.zip
+          fi
